@@ -32,27 +32,6 @@ function Calculate () {
  }
  
  
-//  const isDisabled = () => {
-//  const height = document.getElementById("Height").value;
-//  const weight = document.getElementById("Weight").value;
-//  const clearBtn = document.getElementById("clearBtn");
- 
-//   clearBtn.classList.add("active");
- 
-  
-//    if (height || weight) {
- 
-//         clearBtn.disabled = false
-  
-//    } else {
-      
-//        clearBtn.disabled = true;
-//    }
-  
-  
-//  };
- 
- 
  const clearBtn = document.getElementById('clearBtn')
  function clear() {
  

@@ -1,32 +1,46 @@
 body{
-	background-image: url('images/Animated Shape.svg');
+	background-color: #fff;
 }
 
 h1{
 	font-family: 'Montserrat Alternates', sans-serif;
  	font-weight: 500; 	
 	font-size: 4rem;
-	color: white;
+	color: black;
 	text-align: center;
 	margin-top: 1%;
 }
 
 
 .container{
-	background-color: red;
-	height: 380px;
-	width: 450px;
+	background-color: rgb(52, 120, 155);
+	height: 300px;
+	width: 400px;
 	margin: 3% auto 3% auto;
 	border-radius: 5%;
+	display: flex;
 }
 
+.formControl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 20px;
+   
+}
+
+.formLabel {
+    display: flex;
+    margin-bottom: 6px;
+}
 
 .row{
-
 	margin: auto;
 }
 
-.inputdata{
+.inputData{
 
 	margin-top: 6%;
 	font-size: 1.3rem;
@@ -36,28 +50,37 @@ h1{
 	font-size: 1.3rem;
 	text-align: center;
 	margin: 12% auto;
-	width: 250px;
+	width: 150px;
 	border: 3px solid white;
+	border-radius: 2px;
+}
+
+.btnGrp {
+	display: flex;
+    justify-content: center;
+	gap: 10px;
+}
+
+.btn1 {
+ 
+    font-size: 1.3rem;
+    text-align: center;
+    margin: 12% auto;
+    width: 150px;
+    border: 3px solid white;
+    border-radius: 2px;
+    display: none;
+}
+ 
+.active {
+    display: block;
 }
 
 .output{
 
-	color: white;
+	color: black;
 	font-size: 1.5rem;
 	text-align: center;
 	font-family: 'Montserrat Alternates', sans-serif;
- 	
 }
 
-/* Responsive part */
-@media screen and (max-width: 600px) {
-  
-  h1{
-  	font-size: 4rem;
-  }
-
-  .output{
-
-	font-size: 1.5rem;
-  }
-}
